@@ -1,0 +1,6 @@
+function bode_draw_window2(freq_min,freq_max,phase_min,phase_max,color)
+ylims = [phase_min, phase_max];
+patch([freq_min freq_max freq_max freq_min],...
+    [ylims(1) ylims(1) ylims(2) ylims(2)]*1,...
+    color,'edgecolor',color*0.6,'FaceAlpha', 0.15  );
+

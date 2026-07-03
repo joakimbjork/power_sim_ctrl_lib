@@ -50,7 +50,9 @@ Built on top of MATLAB, the platform enables engineers and researchers to rapidl
 
 ### Getting Started
 
-### Repository Structure
+Examples:
+- CIGRE2024_voltage_and_PODQ_ctrl>main_CIGRE2024
+- ISGT2025_partitioned_ctrl>main_ISGT2025
 
 ### Philosophy
 This platform is built with the belief that:

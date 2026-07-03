@@ -1,4 +1,4 @@
-# RMS-power-sim
+# Power_sim_ctrl_lib
 A flexible, MATLAB-based framework for RMS power system simulation with strong support for linear analysis and control design.
 
 ## Overview

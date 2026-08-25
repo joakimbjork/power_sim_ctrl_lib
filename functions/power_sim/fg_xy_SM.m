@@ -359,7 +359,7 @@ end
 
 %% PMU
 if isfield(PAR,'PMU')
-    if PAR.WIND.type == 1 % Linear model
+    if PAR.PMU.type == 1 % Linear model
         [f_xy(PAR.PMU.idx_nx), FREQ, ~] = ss_object(0, PAR.PMU, x0, ANG-ANG0, zeros(nbus,1));
     end
 end

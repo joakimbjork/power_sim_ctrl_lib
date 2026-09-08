@@ -1,4 +1,4 @@
-%% main_CONV_study
+%% main_ISGT2025
 % Code used to produce figures for:
 %
 % J. Björk, H. Ekestam, H. Hörnequist, and M. Javdani, 

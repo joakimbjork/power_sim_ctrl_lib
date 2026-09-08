@@ -1,4 +1,4 @@
-opt_CONV_study
+opt_ISGT2025
 % opt.CONV.MBASE = 1*ones(m,1); % Lower the rating to get more visible difference between ESCP and SCP
 % opt.CONV.Storage = ss(0.1*eye(m));
 % 

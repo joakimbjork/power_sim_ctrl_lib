@@ -1,4 +1,4 @@
-opt_CONV_study
+opt_ISGT2025
 
 [PAR, opt] = data_Nordic5(opt); % Modell 
 

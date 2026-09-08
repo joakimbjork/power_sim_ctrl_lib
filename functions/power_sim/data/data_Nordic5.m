@@ -92,32 +92,9 @@ end
 if isfield(opt,'TQOP') % Overide constant
     GENDATA(:,10) = opt.TQOP;
 end
-if isfield(opt,'one_ax') % Only idx "one_ax" will be modelled as one axis machines
-    TDOP = GENDATA(:,7);
-    GENDATA(:,7) = ones(ng,1)*1e9;
-    GENDATA(opt.one_ax,7) = TDOP(opt.one_ax);
-end
-if isfield(opt,'two_ax') % Only idx "two_ax" will be modelled as two axis machines
-    TQOP = GENDATA(:,10);
-    GENDATA(:,10) = ones(ng,1)*1e6;
-    GENDATA(opt.two_ax,10) = TQOP(opt.two_ax);
-    XDP = GENDATA(:,5);
-    XQP = GENDATA(:,8);
-    GENDATA(:,8) =  XDP;
-    GENDATA(opt.two_ax,8) = XQP(opt.two_ax);
-    XQ = GENDATA(:,9);
-    GENDATA(:,9) =  XDP;
-    GENDATA(opt.two_ax,9) = XQ(opt.two_ax);
-end
 
-if isfield(opt,'four_ax') % Only idx "four_ax" will be modelled as four axis machines
-    XDPP= GENDATA(:,11);
-    XQPP = GENDATA(:,13);
-    GENDATA(:,11) = GENDATA(:,5);
-    GENDATA(:,13) = GENDATA(:,8);
-    GENDATA(opt.four_ax,11) = XDPP(opt.four_ax);
-    GENDATA(opt.four_ax,13) = XQPP(opt.four_ax);
-end
+
+
 
 %% Network data
 % L_net = [0   -0.1364         0   -0.2182         0
